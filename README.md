@@ -33,18 +33,20 @@ Enumerable.from(gen);
 ```
 or
 ```typescript
+import { Enumerable } from '@hcstw/enumerable';
+
 Enumerable.from(function*() {
-    for(let item of [1,2,3]) {
         yield 1;
         yield 2;
         yield 3;
-    }
 });
 ```
 
 ## use Enumerable
     
 ```typescript
+import { Enumerable } from '@hcstw/enumerable';
+
 Enumerable.range(0, 5)
     .select(x => ({ id: x, name: `name-${x}` }))
     .where(x => x.id > 3)
