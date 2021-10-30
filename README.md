@@ -80,7 +80,7 @@ owners.asEnumerable()
 */
 ```
 
-see ./tests/*.test.ts for more detial samples
+see [./tests/*.test.ts for more detial samples](https://github.com/hcstw/enumerable/tree/main/tests)
 
 ## implemented function
 
