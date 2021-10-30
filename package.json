@@ -9,7 +9,7 @@
     "types": "dist/public_api.d.ts",
     "author": "hcstw",
     "license": "MIT",
-    "repository": "github:user/repo",
+    "repository": "github:hcstw/enumerable",
     "files": [
         "dist"
     ],
