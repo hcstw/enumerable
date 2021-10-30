@@ -84,7 +84,7 @@ owners.asEnumerable()
 */
 ```
 
-see [./tests/*.test.ts for more detial samples](https://github.com/hcstw/enumerable/tree/main/tests)
+see [./tests/*.test.ts for more detial examples](https://github.com/hcstw/enumerable/tree/main/tests)
 
 ## implemented function
 
