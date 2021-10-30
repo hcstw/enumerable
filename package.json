@@ -1,0 +1,28 @@
+{
+    "name": "@hcstw/enumerable",
+    "version": "1.0.1",
+    "description": "Enumerable for Typescript/Javascript",
+    "scripts": {
+        "test": "mocha tests/**/*.ts"
+    },
+    "main": "dist/public_api.js",
+    "types": "dist/public_api.d.ts",
+    "author": "hcstw",
+    "license": "MIT",
+    "repository": "github:user/repo",
+    "files": [
+        "dist"
+    ],
+    "devDependencies": {
+        "@types/chai": "^4.2.22",
+        "@types/expect": "^24.3.0",
+        "@types/mocha": "^9.0.0",
+        "chai": "^4.3.4",
+        "jsdom": "18.0.0",
+        "jsdom-global": "3.0.2",
+        "mocha": "^9.1.3",
+        "nyc": "^15.1.0",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.4.4"
+    }
+}
