@@ -24,6 +24,8 @@ document.querySelectorAll('div').asEnumerable()
 ### Enumerable from generator
 
 ```typescript
+import { Enumerable } from '@hcstw/enumerable';
+
 function *gen(){
     yield 1;
     yield 2;
